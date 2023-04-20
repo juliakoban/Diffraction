@@ -5,6 +5,7 @@
 // variables to modify
 
 const double a = 10.; // width of the slit
+const double dA = 20.; // dostance between slits in the double slit variant
 
 const double screenSize = 100.; 
 
@@ -31,19 +32,22 @@ int main()
     file.open("intensity.data", std::ios::out);
 
     double y[n]; // observation points on the screen
-    double intensity[n]; // wave intensities at y points on the screen
+    double intensity[n]; // intensity that forms an image of single-slit diffraction
+    double doubleSlitIntensity[n]; // intensity that forms an image of double-slit diffraction
+    double getLargestNumberFromFile(std::ifstream& file); // used for showing single- and double-slit diffraction graph
 
     // filling arrays
     for (int i = 0; i < n; i++)
     {
         y[i] = i * h - (screenSize / 2.);
         intensity[i] = pow(Simpson(-(a / 2), (a / 2), nSimpson, y[i], RealPart), 2) + pow(Simpson(-(a / 2), (a / 2), nSimpson, y[i], ImaginaryPart), 2);
+        doubleSlitIntensity[i] = 4 * intensity[i] * pow(cos((M_PI * dA * y[i]) / (lambda * screenDistance)), 2);
     }
 
-    // writing to file - intensity(y)
+    // writing to file - intensity(y), doubleSlitIntensity(y)
     for (int i = 0; i < n; i++)
     {
-        file << y[i] << "   " << intensity[i] << std::endl;
+        file << y[i] << "   " << intensity[i] << "   " << doubleSlitIntensity[i] << std::endl;
     }
 
     file.close();
