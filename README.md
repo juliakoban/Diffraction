@@ -27,13 +27,13 @@ The diffraction integral solutions is given by the numerical integration method 
 
 ## Setup
 
-To clone and run the code:
+To clone and run this code:
 ```
 $ git clone https://github.com/juliakoban/Diffraction.git
 $ cd Diffraction
 $ g++ diffraction.cpp
 ```
-To plot results with [gnuplot](http://www.gnuplot.info/):
+To plot results with [gnuplot](http://www.gnuplot.info/) use one of the ".txt" plot setup files:
 ```
 gnuplot> load "singleSlitPlot.txt"
 ```
