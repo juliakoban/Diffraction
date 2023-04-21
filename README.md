@@ -17,9 +17,10 @@ It states that:
 > Every point on a wavefront is itself the source of spherical wavelets, and the secondary wavelets emanating from different points mutually interfere. The sum of these spherical wavelets forms a new wavefront.
 
 The sum of waves propagating from all points on the aperture can be expressed as the diffraction integral:
+$\ D=(-a/int_2)^\ (a/int_2) \mathrm{e}^{-x}\,\mathrm{d}x$
 
 And the wavefront intensity:
-$\ I=Re(D)^2+Imd(D)^2$
+$\ I=Re(D)^2+Im(D)^2$
 
 The diffraction integral solutions is given by the numerical integration method called the [Simpson's rule](https://en.wikipedia.org/wiki/Simpson%27s_rule). 
 
