@@ -12,6 +12,7 @@ The project allows to simulate single-slit and double-slit diffraction patterns 
 
 ## Physics and numerical methods
 The diffraction pattern made by waves passing through a slit can be understood with the [Huygens' Principle](https://en.wikipedia.org/wiki/Huygens%E2%80%93Fresnel_principle).
+
 It states that:
 > Every point on a wavefront is itself the source of spherical wavelets, and the secondary wavelets emanating from different points mutually interfere. The sum of these spherical wavelets forms a new wavefront.
 
