@@ -1,9 +1,9 @@
 # Diffraction 
-This project is a physics simulation
+This project is a physical simulation of of diffraction modeled in c++. 
 
 ## Table of contents 
 * [General info](#general-info)
-* [Numerical methods](#numerical-methods)
+* [Physics and numerical methods](#physics-and-numerical-methods)
 * [Examples of use](#examples-of-use)
 * [Setup](#setup)
 
