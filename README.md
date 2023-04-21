@@ -9,7 +9,7 @@ This project is a physical simulation of diffraction modeled in c++.
 
 ## General info
 
-## Numerical methods
+## Physics and numerical methods
 
 ## Examples of use
 
