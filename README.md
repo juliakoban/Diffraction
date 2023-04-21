@@ -19,6 +19,7 @@ It states that:
 The sum of waves propagating from all points on the aperture can be expressed as the diffraction integral:
 
 And the wavefront intensity:
+$\I=Re(D)^2+Imd(D)^2$
 
 The diffraction integral solutions is given by the numerical integration method called the [Simpson's rule](https://en.wikipedia.org/wiki/Simpson%27s_rule). 
 
