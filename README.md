@@ -1,5 +1,5 @@
 # Diffraction 
-This project is a physical simulation of diffraction modeled in c++. Results plotted with gnuplot.
+This project is a physical simulation of diffraction modeled in C++. Results plotted with gnuplot.
 
 ## Table of contents 
 * [General info](#general-info)
@@ -20,13 +20,17 @@ The sum of waves propagating from all points on the aperture can be expressed as
 
 ## Examples of use
 
-### Single-slit diffraction
+### Aperture width greater than the wavelength
 
 ![image](single_slit_large_aperture.png)
 
-![image](single_slit_small_aperture.png)
+![image](double_slit.png)
 
-### Double-slit and single-slit diffraction
+### Aperture width smaller than the wavelength
+
+![image](single_slit_small_aperture.png) 
+
+### Aperture width greater than the wavelength
 
 ![image](double_slit.png)
 
