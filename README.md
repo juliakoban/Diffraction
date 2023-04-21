@@ -29,9 +29,9 @@ The diffraction integral solutions is given by the numerical integration method 
 
 To clone and run the code:
 ```
-clone https://github.com/juliakoban/Diffraction.git
-cd Diffraction
-g++ diffraction.cpp
+$ git clone https://github.com/juliakoban/Diffraction.git
+$ cd Diffraction
+$ g++ diffraction.cpp
 ```
 To plot results with [gnuplot](http://www.gnuplot.info/):
 ```
