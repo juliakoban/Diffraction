@@ -16,10 +16,13 @@ The diffraction pattern made by waves passing through a slit can be understood w
 It states that:
 > Every point on a wavefront is itself the source of spherical wavelets, and the secondary wavelets emanating from different points mutually interfere. The sum of these spherical wavelets forms a new wavefront.
 
-The sum of waves propagating from all points on the aperture can be expressed as the diffraction integral. The solutions is given by the numerical integration method called the [Simpson's rule](https://en.wikipedia.org/wiki/Simpson%27s_rule). 
-
+The sum of waves propagating from all points on the aperture can be expressed as the diffraction integral. The solutions is then given by the numerical integration method called the [Simpson's rule](https://en.wikipedia.org/wiki/Simpson%27s_rule). 
 
 ## Examples of use
+
+### Single-slit diffraction
+
+### Double-slit and single-slit diffraction
 
 ## Setup
 
