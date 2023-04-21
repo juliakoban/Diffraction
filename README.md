@@ -22,17 +22,15 @@ The sum of waves propagating from all points on the aperture can be expressed as
 
 ### Aperture width greater than the wavelength
 
-![image](single_slit_large_aperture.png)
-
 ![image](double_slit.png)
 
 ### Aperture width smaller than the wavelength
 
 ![image](single_slit_small_aperture.png) 
 
-### Aperture width greater than the wavelength
+### Apertures width same as the wavelength
 
-![image](double_slit.png)
+![image](double_slit_wavelength.png)
 
 ## Setup
 

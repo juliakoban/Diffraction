@@ -5,7 +5,7 @@
 // variables to modify
 
 const double a = 10.;  // width of the slit
-const double dA = 20.; // dostance between slits in the double slit variant
+const double dA = 3.; // dostance between slits in the double slit variant
 
 const double screenSize = 100.;
 
