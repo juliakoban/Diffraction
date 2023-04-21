@@ -38,11 +38,13 @@ To clone and run this code:
 ```
 $ git clone https://github.com/juliakoban/Diffraction.git
 $ cd Diffraction
-$ g++ diffraction.cpp
+$ make build
+$ make run
 ```
 To plot results with [gnuplot](http://www.gnuplot.info/) use one of the ".txt" plot setup files:
 
 ```
+$ cd PlotSetup
 $ gnuplot
 gnuplot> load "singleSlitPlot.txt"
 ```

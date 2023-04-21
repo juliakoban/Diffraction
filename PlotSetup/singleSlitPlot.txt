@@ -15,4 +15,4 @@ set xlabel font "arial, 12";
 
 set style line 5 lt rgb "black" lw 3
 
-plot "intensity.data" u 1:2 with lines ls 5
+plot "./../intensity.data" u 1:2 with lines ls 5

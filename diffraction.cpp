@@ -27,6 +27,7 @@ double RealPart(double x, double y);                                            
 double ImaginaryPart(double x, double y);                                                      // imaginary part of the diffraction integral
 double getLargest();                                                                           // for intensity normalization
 
+
 int main()
 {
     std::fstream file;
