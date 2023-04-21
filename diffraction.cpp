@@ -25,6 +25,7 @@ double Simpson(double xMin, double xMax, int n, double y, double (*Function)(dou
 double R(double x, double y); // r-distance between the source and the observation point(screen), where x-coordinate on the slit, y-coordinate on the screen
 double RealPart(double x, double y); // real part of the diffraction integral
 double ImaginaryPart(double x, double y); // imaginary part of the diffraction integral
+double getLargest(); // for intensity normalization
 
 int main()
 {
