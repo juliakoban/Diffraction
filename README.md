@@ -1,5 +1,5 @@
 # Diffraction 
-This project is a physical simulation of of diffraction modeled in c++. 
+This project is a physical simulation of diffraction modeled in c++. 
 
 ## Table of contents 
 * [General info](#general-info)
