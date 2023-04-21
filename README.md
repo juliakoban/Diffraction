@@ -17,7 +17,7 @@ It states that:
 > Every point on a wavefront is itself the source of spherical wavelets, and the secondary wavelets emanating from different points mutually interfere. The sum of these spherical wavelets forms a new wavefront.
 
 The sum of waves propagating from all points on the aperture can be expressed as the diffraction integral:
-$\int$
+$\int_0^\infty$
 
 And the wavefront intensity:
 $\ I=Re(D)^2+Im(D)^2$
