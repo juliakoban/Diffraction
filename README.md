@@ -22,7 +22,13 @@ The sum of waves propagating from all points on the aperture can be expressed as
 
 ### Single-slit diffraction
 
+![image](single_slit_large_aperture.png)
+
+![image](single_slit_small_aperture.png)
+
 ### Double-slit and single-slit diffraction
+
+![image](double_slit.png)
 
 ## Setup
 
@@ -33,6 +39,8 @@ $ cd Diffraction
 $ g++ diffraction.cpp
 ```
 To plot results with [gnuplot](http://www.gnuplot.info/) use one of the ".txt" plot setup files:
+
 ```
+$ gnuplot
 gnuplot> load "singleSlitPlot.txt"
 ```
