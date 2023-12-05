@@ -28,10 +28,6 @@ The sum of waves propagating from all points on the aperture can be expressed as
 
 ![image](./Images/single_slit_small_aperture.png) 
 
-### Apertures width same as the wavelength
-
-![image](./Images/double_slit_wavelength.png)
-
 ## Setup
 
 To clone and run this code:
